@@ -13,7 +13,7 @@ display::display(){
 	void (display::*func) (UG_S16 x , UG_S16 y ,UG_COLOR c);
 	func = &display::pixel;
 	
-	UG_Init(gui, pixel, 128, 128);
+	//UG_Init(gui, func, 128, 128);
 }
 display::~display(){
 	
